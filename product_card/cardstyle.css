@@ -5,6 +5,7 @@
     --lighttext: #f7fff7;
     --backgroundcolor: #f7fff7;
 }
+
 .grid-container {
   display: grid;
   height: auto;
@@ -36,7 +37,7 @@ label{
 }
 
 
-.addpro{
+.add-prod{
     grid-area: a;
     text-align: center;
 } 
@@ -78,7 +79,7 @@ form :focus {
     box-shadow: 3px 3px #022b3a;
     background-color: rgba(139, 253, 215, 0.274);
 }
-.inpdesc {
+.input-desc {
     height: 150px;
     
 }.center{
@@ -86,7 +87,7 @@ form :focus {
     width: 100%;
     text-align: center;
 }
-.closebtn{
+.close-btn{
     display: flex;
     float: right;
     margin: 6px;

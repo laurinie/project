@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
-    let addProductbtn = document.querySelector("#addbutton");
-    let productCard = document.querySelector("#addproduct");
-    addProductbtn.addEventListener('click', function () {
+    let addProductBtn = document.querySelector("#add-button");
+    let productCard = document.querySelector("#add-product");
+    addProductBtn.addEventListener('click', function () {
 
-        if (productCard.classList.contains("dispnone")) {
-            productCard.classList.remove("dispnone");
+        if (productCard.classList.contains("display-none")) {
+            productCard.classList.remove("display-none");
             }
         
     });
 
-    let closebtn = document.querySelector("#closecard");
-    let c = document.querySelector("#addproduct");
-    closebtn.addEventListener('click', function () {
-        if (!c.classList.contains("dispnone")) {
-            c.classList.add("dispnone");
+    let closeBtn = document.querySelector("#closecard");
+    let c = document.querySelector("#add-product");
+    closeBtn.addEventListener('click', function () {
+        if (!c.classList.contains("display-none")) {
+            c.classList.add("display-none");
             }
         
     });
